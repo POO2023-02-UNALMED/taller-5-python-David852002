@@ -51,3 +51,15 @@ class Animal():
     
     def setEdad(self, edad):
         self._edad = edad
+        
+    def getHabitat(self):
+        return self._habitat
+    
+    def setEdad(self, habitat):
+        self._habitat = habitat
+    
+    def getGenero(self):
+        return self._genero
+    
+    def setGenero(self, genero):
+        self._genero = genero
